@@ -71,7 +71,8 @@ ul, li {
 }
 
 /*about*/
-.about {
+.about,
+.services {
     padding-top: 120px;
     padding-bottom: 125px;
 
@@ -85,7 +86,8 @@ ul, li {
     font-weight: bold;
 }
 
-.about__text {
+.about__text,
+.service__text {
     font-family: 'Open Sans Semibold', serif;
     margin-bottom: 120px;
 
@@ -93,10 +95,65 @@ ul, li {
     font-size: 15px;
 }
 
-.about__h3{
+.about__h3 {
     margin-top: 30px;
     margin-bottom: 20px;
 
     font-family: 'Open Sans Semibold', serif;
     font-size: 20px;
+}
+
+/*services*/
+.services {
+    padding-top: 165px;
+    background: #e4fdf9;
+}
+
+.service__card {
+    padding: 58px 20px 50px;
+    background: white;
+    transition: 0.3s ease-in;
+
+    margin-bottom: 31px;
+}
+
+
+.service__card:hover {
+    background-color: #00897b;
+    box-shadow: 0 10px 12px -3px rgba(0, 0, 0, 0.26);
+    color: white;
+}
+
+.service__card:hover .icon,
+.service__card:hover .service__text {
+    color: white;
+}
+
+.icon {
+    font-size: 60px;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.button-services {
+    padding: 18px 15px;
+    transition: 0.3s ease-in;
+    font-family: 'Open Sans Semibold', serif;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.button-services:hover {
+    cursor: pointer;
+}
+
+.service__card:hover .button-services{
+    border: 2px solid white;
+    color: white;
+}
+
+.service__text {
+    margin-bottom: 45px;
+    transition: 0.3s ease-in;
 }
