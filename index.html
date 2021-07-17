@@ -79,7 +79,7 @@
 
 <section class="services">
     <div class="container">
-        <div class="row justify-content-around">
+        <div class="row justify-content-center">
             <div class="col-xl-8">
                 <h2 class="about__title">Our services</h2>
                 <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -146,10 +146,42 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
+<section class="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8">
+                <h2 class="about__title">Latest work</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                <button val="on" class="button button_empty" filter="all">All</button>
+                <button val="off" class="button button_empty" filter="wd">WEB DESIGN</button>
+                <button val="off" class="button button_empty" filter="ud">UI/UX DESIGN</button>
+                <button val="off" class="button button_empty" filter="moc">MOCKUPS</button>
+            </div>
+        </div>
+        <div class="row filter">
+            <div filter="wd" class="col-xl-4"><img src="/assets/img/all-item1.png" alt="item"></div>
+            <div filter="moc" class="col-xl-4"><img src="/assets/img/all-item2.png" alt="item"></div>
+            <div filter="wd" class="col-xl-4"><img src="/assets/img/all-item3.png" alt="item"></div>
+            <div filter="ud" class="col-xl-4"><img src="/assets/img/all-item4.png" alt="item"></div>
+            <div filter="ud" class="col-xl-4"><img src="/assets/img/all-item5.png" alt="item"></div>
+            <div filter="moc" class="col-xl-4"><img src="/assets/img/all-item6.png" alt="item"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="button">View all</button>
+            </div>
+        </div>
+    </div>
+</section>
 <script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
