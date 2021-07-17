@@ -4,36 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Web-dev</title>
 </head>
 <body>
-    <header class="menu-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-2">
-                    logo
-                </div>
-                <div class="col-xl-8 ml-auto align-self-center">
-                    <nav>
-                        <ul class="menu d-flex justify-content-end ">
-                            <li class="menu__item "><a href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">About</a></li>
-                            <li class="menu__item"><a href="#">Servicing</a></li>
-                            <li class="menu__item"><a href="#">Portfolio</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
-                            <li class="menu__item"><a href="#">Contact us</a></li>
-                            <li class="menu__item"><a href="#"><i class="fas fa-search"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
+<header class="menu-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 logo-bar">
+                logo
+            </div>
+            <div class="col-xl-10 ml-auto align-self-center">
+                <nav>
+                    <ul class="menu d-flex justify-content-end">
+                        <li class="menu__item "><a href="#">Home</a></li>
+                        <li class="menu__item"><a href="#">About</a></li>
+                        <li class="menu__item"><a href="#">Servicing</a></li>
+                        <li class="menu__item"><a href="#">Portfolio</a></li>
+                        <li class="menu__item"><a href="#">Blog</a></li>
+                        <li class="menu__item"><a href="#">Contact us</a></li>
+                        <li class="menu__item"><a href="#"><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </header>
-    
+    </div>
+</header>
 
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <h1 class="header__title">Web development project</h1>
+                <p class="header__text">Very suitable to support all web development projects</p>
+                <button class="button button_empty">OUR SERVICES</button>
+                <button class="button button_empty">HIRE IS NOW</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8">
+                <h2 class="about__title">About us</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-xl-3"><img src="/assets/img/internet.png" alt="internet">
+                <h3 class="about__h3">Awesome Icons</h3>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor</p>
+            </div>
+            <div class="col-xl-3"><img src="/assets/img/transfer.png" alt="transfer">
+                <h3 class="about__h3">One Page</h3>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="col-xl-3"><img src="/assets/img/head.png" alt="head">
+                <h3 class="about__h3">Fully Responsive</h3>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
