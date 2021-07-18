@@ -170,7 +170,8 @@ ul, li {
     color: black;
 }
 
-.portfolio button:hover {
+.portfolio button:hover,
+.focused {
     color: white;
 }
 
@@ -180,4 +181,22 @@ ul, li {
 
 .filter {
     padding: 120px 0;
+}
+
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+.text {
+    display: none;
+}
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
 }
