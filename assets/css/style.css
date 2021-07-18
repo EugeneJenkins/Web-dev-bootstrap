@@ -84,6 +84,7 @@ ul, li {
 .about__title {
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 40px
 }
 
 .about__text,
@@ -187,9 +188,11 @@ div[filter]:hover img {
     filter: brightness(50%);
     transition: 0.3s;
 }
+
 .text {
     display: none;
 }
+
 div[filter]:hover .text {
     display: block;
     width: 100%;
@@ -199,4 +202,70 @@ div[filter]:hover .text {
     left: 0;
     z-index: 3;
     text-align: center;
+}
+
+/*pricing*/
+.pricing {
+    padding-top: 130px;
+    padding-bottom: 125px;
+    color: black;
+    text-align: center;
+    background: #f0f1f1;
+}
+
+.price {
+    background: #fff;
+    transition: 0.3s ease-in;
+}
+
+.price:hover {
+    box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.39);
+}
+
+.price__head {
+    padding-top: 50px;
+    padding-bottom: 68px;
+    background-image: url("/assets/img/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 211px;
+    color: white;
+    font-size: 50px;
+}
+
+.price__head p {
+    font-size: 25px;
+}
+
+.price__head sub {
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.price__head sup {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.price__body {
+    font-size: 17px;
+    color: #212121;
+}
+
+.price__body ul li {
+    padding-bottom: 12px;
+    padding-top: 28px;
+    margin: 0 auto;
+    max-width: 175px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.price__footer {
+    padding: 60px 0;
+}
+
+.price__footer button {
+    border: 2px solid #212121;
+    color: #212121;
+    font-family: 'Open Sans Semibold', serif;
 }
